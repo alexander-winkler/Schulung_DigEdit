@@ -58,6 +58,8 @@ Ruhest du auch.
 ```
 
 Dokumentation reiner Textinformation.
+Wiedergabe lediglich der Zeilenumbrüche.
+Keine Auszeichnung z.B. der Überschrift.
 
 ### TEI-Edition auf TextGrid
 
@@ -97,8 +99,12 @@ Das konkrete Beispiel enthält im `<text>`-Knoten einen `<body>` und mehrere `<d
 
 Der für Gedichteditionen typische `<lg>`-Knoten (linegroup) enthält `<l>`-Elemente (lines).
 
-Bei Prosa-Texten werden dagegen i.d.R. die Paragraphen (durch `<div>`) und die typographischen Zeilenumbrüche (durch `</lb>`) ausgezeichnet.
+Bei Prosa-Texten werden dagegen i.d.R. die Paragraphen (durch `<div>`) und die typographischen Zeilenumbrüche (durch `<lb/>`) ausgezeichnet.
 
+TEI kann auch die physische/typographische Faktur eines Werks beschreiben.
+Vgl. etwa [eine Seite aus Goethes Divan](https://www.deutschestextarchiv.de/book/view/goethe_divan_1819?p=11):
+
+![](img/divan1819.png)
 
 ## Lesen/Benutzen ein digitalen Edition
 
